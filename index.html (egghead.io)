@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="webo_css.css">
+	<script src="https://kit.fontawesome.com/5b756dfa76.js" crossorigin="anonymous"></script>
+	<title>WEBO</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="logo.svg">
+            </a>
+
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-book"></i>
+                            Learn to Code
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <button type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+
+            <nav class="login-buttons">
+                <ul>
+                    <li class="join-now-btn">
+                        <a href="#">Join Us</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#">Sign in</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <section class="banner">
+         <div class="container">
+             <div class="banner-box">
+                 <h1>Learn the best JavaScript tools and frameworks from industry pros.</h1>
+                 <h2>Video tutorials for badass web developers.</h2>
+                 <a href="#" class="btn">Click to Start Learning</a>
+             </div>
+
+             <div class="banner-box banner-image">
+                 <a href="#">
+                     <img src="site.png">
+                 </a>
+             </div>
+         </div>
+    </section>
+    
+    <div class="container">
+        <section class="section1">
+            <div class="lang">
+                <a href="#">
+                    <img src="react.png">
+                    <span class="title">React</span>
+                </a>
+                <a href="#">
+                    <img src="css.png">
+                    <span class="title">CSS</span>
+                </a>
+                <a href="#">
+                    <img src="rust.png">
+                    <span class="title">Rust</span>
+                </a>
+                <a href="#">
+                    <img src="postgres.png">
+                    <span class="title">PostgreSQL</span>
+                </a>
+                <a href="#">
+                    <img src="aws.png">
+                    <span class="title">AWS</span>
+                </a>
+                <a href="#">
+                    <img src="js.png">
+                    <span class="title">JavaScript</span>
+                </a>
+            </div>
+
+            <div class="inner">
+                <h3>What is egghead?</h3>
+                <p>egghead is a group of working web development professionals and open source contributors that provide you with concise, information dense video courses on the best tools in the industry.</p>
+
+                <p>We are dedicated to respecting your time. This means that egghead courses get to the point and deliver knowledge that you can use today. You won't find boring 8 hour courses on egghead, instead you'll find a wealth of bite-sized courses that pack more information in a fraction of the time.</p>
+            </div></section>
+        
+        <section class="section2">
+            <div class="icon">
+                <i class="fa fa-quote-left"></i>
+            </div>
+
+            <p>If you're a developer, you owe it to yourself to follow @eggheadio. Short, instructional videos on the technologies we use.</p>
+            
+            <div class="user">
+                <img src="uzak.jpg">
+                Muzaffer Özdemir
+            </div>
+        </section>
+        
+        <section class="section3">
+            <div class="text">
+                <h3>Learn Something New</h3>
+                <p>yaşananların bir nebze körelttiği, aşırı duygulanımların bir miktar aşındırdığı, kötülükler karşısında ego tarafından sıkı korunmaya alınan ve bir zaman sonra içine gizlendiği altın sandıklarda var olduğu bile unutulan bir hayata bakış şeklidir. çocuklara özgü der yetişkinler, ama yaşı kemale erme yolunda iri adımlar attığı halde yetişkin olmadığını açıkça yaşayanlar bilir ki sadece çocuklara değil, güçlülere özgüdür masumiyet.</p>
+                <a href="#" class="btn color-green">Create Your Free Account</a>
+            </div>
+
+            <div class="image">
+                <img src="foto.png">
+            </div>
+        </section>
+    </div>
+    
+    <footer class="footer">
+         <div class="container">
+             
+             <div class="logo">
+                 <a href="#">
+                     <img src="logo.svg">
+                 </a>
+             </div>
+
+             <div class="footer-nav">
+                 <nav>
+                    <h6>CONTENT</h6>
+                    <ul>
+                         <li>
+                             <a href="#">Browse</a>
+                         </li>
+                         <li>
+                             <a href="#">Courses</a>
+                         </li>
+                         <li>
+                             <a href="#">Lessons</a>
+                         </li>
+                         <li>
+                             <a href="#">Podcasts</a>
+                         </li>
+                    </ul>
+                 </nav>
+                 <nav>
+                    <h6>ABOUT</h6>
+                     <ul>
+                         <li>
+                             <a href="#">Practing</a>
+                         </li>
+                         <li>
+                             <a href="#">Instructors</a>
+                         </li>
+                         <li>
+                             <a href="#">Stories</a>
+                         </li>
+                         <li>
+                             <a href="#">Team</a>
+                         </li>
+                         <li>
+                             <a href="#">Store</a>
+                         </li>
+                     </ul>
+                 </nav>
+
+                 <div class="search">
+                    <h6>Search for Lessons and Courses</h6>
+                    <form action="">
+                        <input type="text" placeholder="e.g. JavaScript, React">
+                        <button type="button">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </form> 
+                 </div>
+             </div>
+
+             <div class="copyright">
+                 <a href="#">Terms & Conditions</a>
+                 <span class="text">&copy; egghead.io</span>
+             </div>
+         </div>
+    </footer>
+
+
+
+</body>
+</html>
